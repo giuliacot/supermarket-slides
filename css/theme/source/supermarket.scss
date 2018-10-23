@@ -159,6 +159,7 @@ body {
     &:hover {
       // text-shadow: 4px 4px 0px $blue-lidl;
       &::after {
+        outline: none;
         transition: max-width 2s;
         max-width: 100%;
       }

@@ -72,6 +72,7 @@ body {
       overflow: hidden;
       max-width: 0; }
     .reveal a:hover::after {
+      outline: none;
       transition: max-width 2s;
       max-width: 100%; }
   .reveal p {
